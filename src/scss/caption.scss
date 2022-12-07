@@ -1,0 +1,36 @@
+.caption {
+	display: flex;
+	align-items: end;
+	margin-bottom: 30px;
+
+	&__inputTitle {
+		display: flex;
+		flex-direction: column;
+		font-weight: 600;
+		font-size: 22px;
+	}
+
+	&__input {
+		width: 320px;
+		margin-top: 10px;
+		border: 1px solid #ababab;
+		border-radius: 3px;
+		padding: 4px;
+		margin-left: 25px;
+	}
+
+	&__add-btn {
+		margin-left: 20px;
+		width: 90px;
+		height: 25px;
+		background: #6495ed;
+		border: none;
+		border-radius: 3px;
+		color: white;
+
+		&:hover {
+			cursor: pointer;
+			opacity: 0.9;
+		}
+	}
+}

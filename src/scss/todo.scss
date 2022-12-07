@@ -1,0 +1,37 @@
+.todo {
+	padding: 0;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		border: 1px solid #ababab;
+		border-bottom: 0;
+		padding: 10px;
+
+		&:nth-last-child(1) {
+			border-radius: 0 0 5px 5px;
+			border-bottom: 1px solid #ababab;
+		}
+
+		&:first-child {
+			border-radius: 5px 5px 0 0;
+		}
+
+		&:only-child {
+			border-radius: 5px;
+		}
+	}
+
+	&__btn {
+		width: 20px;
+
+		&:hover {
+			cursor: pointer;
+			opacity: 0.6;
+		}
+	}
+
+	&__text {
+		font-size: 18px;
+	}
+}
