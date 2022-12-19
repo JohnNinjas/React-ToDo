@@ -34,4 +34,23 @@
 	&__text {
 		font-size: 18px;
 	}
+
+	&__editing-block {
+		display: flex;
+	}
+
+	&__edit-text-field {
+		width: 300px;
+		margin-right: 8px;
+	}
+
+	&__save-edit-text-btn {
+		background-image: url("../assets/img/accept-changes.png");
+		background-size: contain;
+		border: none;
+		background-repeat: no-repeat;
+		width: 23px;
+		background-color: white;
+		cursor: pointer;
+	}
 }
